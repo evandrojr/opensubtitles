@@ -29,7 +29,7 @@ module Opensubtitles
 
     # Totaly subjective formula to evaluate subtitle quality
     # Originaly developed by runa (https://github.com/runa)
-    # https://github.com/byroot/opensubtitles/commit/9d71775#L0R122
+    # https://github.com/byroot/ruby-osdb/commit/9d71775#L0R122
     def score
       uploader_score * downloads_count.next * (rating + 1) - bad_reports_count / downloads_count.next
     end
