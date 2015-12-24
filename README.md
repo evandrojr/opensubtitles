@@ -52,5 +52,5 @@ Main options:
 
 ##Thanks
 
-###Jean Boussier (byroot) from which I forked this https://github.com/byroot/ruby-osdb
+###Jean Boussier (byroot) from whom I forked this gem https://github.com/byroot/ruby-osdb
 ###Subtitles service powered by www.OpenSubtitles.org
