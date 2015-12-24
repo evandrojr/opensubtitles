@@ -49,3 +49,8 @@ Main options:
     
     -s, --search-by METHODS          Ordered list of search methods. h: by movie hash, i: by name on IMDB, n: by name on Opensubtitles, p: by filename on Opensubtitles. e.g -s hi . Default: h
 
+
+##Thanks
+
+###Jean Boussier (byroot) from which I forked this https://github.com/byroot/ruby-osdb
+###Subtitles service powered by www.OpenSubtitles.org
