@@ -9,7 +9,6 @@ module Opensubtitles
       end
 
       def search_subs_for(movie, language)
-        binding.pry
         imdb_results = @server.search_imdb(:query => movie.name)
         return if imdb_results.size == 0
         return if imdb_results.class != Hash
